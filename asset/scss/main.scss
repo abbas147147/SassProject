@@ -1,0 +1,12 @@
+$primary: #fe8c00;
+$secondary: #f83600;
+
+//import bootstrap
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+//import app
+@import "./fonts";
+@import "./components/mixins";
+@import "./components/buttons";
+@import "./components/headeing-line";
+@import "./styles/header";
+@import "./styles/intro";

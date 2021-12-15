@@ -1,0 +1,11 @@
+.btn-rounded-secondary {
+  background-color: $white;
+  border-radius: 50rem;
+  border: 0.1rem solid rgba($white, 0.6);
+  color: black;
+
+  &:hover {
+    background-color: $secondary;
+    color: $white;
+  }
+}
