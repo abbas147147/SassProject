@@ -4,6 +4,7 @@ import React from "react";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Services from "./components/Services";
+import Comment from "./components/Comment";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Header />
       <Intro />
       <Services />
+      <Comment />
     </div>
   );
 };
